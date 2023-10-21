@@ -1,0 +1,11 @@
+.portada{
+text-align: center;
+margin: 5vmax;
+}
+
+.portada p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5vmax;
+    margin-right: 5vmax;
+}
