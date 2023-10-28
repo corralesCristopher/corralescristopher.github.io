@@ -12,3 +12,16 @@ margin: 5vmax;
     margin-left: 5vmax;
     margin-right: 5vmax;
 }
+
+
+.keres{
+    text-align: center;
+    margin: 5vmax;
+}
+
+.keres p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5vmax;
+    margin-right: 5vmax;
+}
