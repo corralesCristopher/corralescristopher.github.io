@@ -1,0 +1,59 @@
+body {
+    margin: 0%;
+    width: 100vw;
+    background-color: #ad9067;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 1vmax;
+    align-content: center;
+}
+
+.sect {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+img {
+    margin: 2vw;
+    width: 35vw;
+}
+
+.sect p {
+    width: 50vw;
+}
+
+h1 {
+    width: 100%;
+    font-size: 4vw;
+    color: #5d3707;
+    display: flex;
+    justify-content: center;
+    font-family: 'Old English Text MT', sans-serif;
+}
+
+a {
+    font-size: 2vw;
+    color: #5d3707;
+}
+
+h3 {
+    font-size: 3vw;
+    color: #5d3707;
+    display: flex;
+    justify-content: center;
+    font-family: 'Old English Text MT', sans-serif;
+}
+
+p {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #5d3707;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gothic';
+}

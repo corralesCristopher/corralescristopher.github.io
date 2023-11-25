@@ -1,75 +1,69 @@
+/* Estilos comunes para body y header */
+body {
+    position: relative;
+    height: 100%;
+    width: 98%;
+    background-color: #ad9067;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45vmax;
+    margin: 1vmax;
+}
+
+header h1 {
+    font-family: 'Old English Text MT', 'Gothic', sans-serif;
+    font-size: 70px;
+    color: #271010;
+    margin-left: 6vmax;
+}
+
+header h2 {
+    font-family: 'Gothic', 'Old English Text MT', sans-serif;
+    margin-right: 15vmax;
+    color: #5d3707;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Estilos específicos para pantalla en modo paisaje (landscape) */
 @media screen and (orientation: landscape) {
-    body {
-        position: relative;
-        height: 100%;
-        width: 98%;
-        background-color: #ad9067;
-    }
-
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        height: 45vmax;
-        margin: 1vmax;
-    }
-
-    header h1 {
-        font-family: 'Old English Text MT', 'Gothic', sans-serif;
-        font-size: 70px;
-        color: #271010;
-        margin-left: 6vmax;
-    }
-
-    header h2 {
-        font-family: 'Gothic', 'Old English Text MT', sans-serif;
-        margin-right: 15vmax;
-        color: #5d3707;
-    }
-
     .title {
         width: 50%;
     }
-
-    a {
-        text-decoration: none;
-    }
 }
 
-
+/* Estilos específicos para pantalla en modo retrato (portrait) */
 @media screen and (orientation: portrait) {
     body {
-        position: relative;
         height: 100%;
-        width: 98%;
-        background-color: #ad9067;
     }
 
     header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         height: 100vh;
         text-align: center;
+        flex-direction: column;
     }
 
     header h1 {
-        font-family: 'Old English Text MT', 'Gothic', sans-serif;
-        font-size: 50px;
-        color: #271010;
-        margin: 6vmax;
+        font-size: 12vmax;
+        margin-top: 6vmax;
+        margin-left: 6vmax;
+        margin-right: 6vmax;
     }
 
     header h2 {
-        /* Tus estilos específicos para pantallas en modo retrato aquí */
+        margin-left: 5vmax;
+        margin-right: 5vmax;
+        font-size: 5vmax;
     }
+}
 
-    .title {
-        /* Tus estilos específicos para pantallas en modo retrato aquí */
-    }
-
-    a {
-        /* Tus estilos específicos para pantallas en modo retrato aquí */
-    }
+.titulo {
+    margin: 0;
 }

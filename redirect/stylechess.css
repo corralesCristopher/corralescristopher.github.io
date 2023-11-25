@@ -1,0 +1,51 @@
+body {
+    margin: 0%;
+    width: 100vw;
+    height: 97vh;
+    background-color: #ad9067;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1vmax;
+    align-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+header img {
+    height: 5vmax;
+}
+
+header h2 {
+    font-size: 2vmax;
+    margin-left: 1vmax;
+    margin-right: 1vmax;
+    font-family: 'Gothic', 'Old English Text MT', sans-serif;
+    color: #5d3707;
+}
+
+.spaced-between {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    height: 70vh;
+}
+
+.options a {
+    display: block;
+    margin: 8vh;
+    text-align: center;
+    font-family: 'Gothic', 'Old English Text MT', sans-serif;
+    font-weight: bold;
+    font-size: 6vh;
+    color: #5d3707;
+}
